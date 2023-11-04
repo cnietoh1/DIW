@@ -1,0 +1,68 @@
+#titulo {
+    color: teal;
+}
+
+p strong {
+    color: red;
+}
+
+.destacado {
+    color: orange;
+}
+
+#subtitulo {
+    color:blue;
+}
+
+p a {
+    color: red;
+    text-decoration: underline red;
+}
+
+p em {
+    color: blue;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+span.especial {
+    color: purple;
+}
+
+table caption {
+    color: blue;
+}
+
+.especial {
+    color: orange;
+}
+
+tr th {
+    color: red;
+}
+
+tr td {
+    color: green;
+}
+tr td strong {
+    color: orange;
+}
+
+#adicional p {
+    color: olive;
+}
+
+span#especial {
+    color: fuchsia;
+}
+
+#adicional a {
+    color: green;
+    text-decoration: underline green;
+}
