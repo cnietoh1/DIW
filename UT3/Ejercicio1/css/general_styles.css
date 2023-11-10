@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    width:100%;
+    margin: 0 auto;
+}
+
+h1, section{
+    margin: 20px 0;
+}
+
+.explanation{
+    padding: 20px;
+    border: 2px solid #C5A072;
+    margin: 10px 0;
+}
+
+code{
+    color: #C5A072;
+}
+
+main section:nth-child(1) h2{
+    text-shadow: -1px -1px 0px black; 
+    background: grey;
+    color: white;
+    margin-bottom: 30px;
+}
+main section:nth-child(1) p{
+    margin-bottom: 30px;
+}
+
+main section:nth-child(1){
+    text-align: center;
+
+    width:50%;
+    margin: 0 auto;
+}
+
+main section:nth-child(2){
+    text-align: center;
+    width:50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+main section:nth-child(3) {
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+    width: 550px;
+    margin: 0 auto;
+}
+
+main section:nth-child(4){
+    text-align: center;
+    width:50%;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+main section:nth-child(3) article:nth-child(1){
+    width: 25%;
+    box-shadow: 10px 10px 0px -2px rgb(128, 1, 1);
+    border: 2px solid black;
+    padding: 30px;
+}
+
+main section:nth-child(3) article:nth-child(2){
+    width: 25%;
+    box-shadow: 10px 10px 0px -2px rgb(0, 255, 255);
+    border: 2px solid black;
+    padding: 30px;
+}
+
+main section:nth-child(3) article:nth-child(3){
+    width: 135px;
+    box-shadow: 10px 10px 0px -2px rgb(0, 100, 0);
+    border: 2px solid black;
+    padding: 30px;
+}
+
+main section:nth-child(3) article:nth-child(1) h2{
+    color: rgb(128, 1, 1);
+    text-shadow: 1px 1px black;
+}
+
+main section:nth-child(3) article:nth-child(2) h2{
+    color: rgb(0, 255, 255);
+    text-shadow: 1px 1px black;
+}
+
+main section:nth-child(3) article:nth-child(3) h2{
+    color: rgb(0, 100, 0);
+    text-shadow: 1px 1px black;
+}
+
+main section:nth-child(3) img{
+    width: 100%;
+    margin: 10px 0px;
+}

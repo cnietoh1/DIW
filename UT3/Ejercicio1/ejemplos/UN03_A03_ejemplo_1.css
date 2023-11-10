@@ -1,0 +1,39 @@
+p, h2{
+  padding: 20px;
+}
+main section:nth-child(1){
+  width: 100%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+main section:nth-child(1) h2{
+  text-shadow: -1px -1px 0px #CCC; 
+  background: rgb(94, 93, 93);}
+main section:nth-child(1) p{
+  text-shadow: 5px 10px 2px black ;
+}
+
+main section:nth-child(3){
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+main section:nth-child(3) article{
+    width: 25%;
+}
+main section:nth-child(3) article:nth-child(1){
+  box-shadow: inset 10px 10px 5px 5px rgb(255, 0, 0), inset -10px -10px 5px -5px rgb(128, 1, 1);
+  padding: 30px;
+}
+main section:nth-child(3) article:nth-child(2){
+  box-shadow: 5px 5px 5px 0 rgb(17, 0, 255), 0 0 5px 5px rgb(0, 0, 0);
+  
+}
+main section:nth-child(3) article:nth-child(3){
+  box-shadow: 5px 5px 8px 5px rgb(0, 255, 76), 0 0 0 1px rgb(0, 109, 5);
+}
+main section:nth-child(3) img{
+  width: 100%;
+  margin: 10px 0px;
+}
+
