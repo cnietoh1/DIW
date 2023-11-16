@@ -1,0 +1,16 @@
+.boton {
+    box-shadow: 5px 5px 3px black;
+    font-weight: bold;
+    width: 100px;
+    height: 40px;
+    background: linear-gradient(180deg, lightblue 0%,lightblue 49%, red 50%, red 100%);
+    background-size: 1px 100px;
+    transition: all .3s;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.boton:hover {
+    background-position: 0 -50px;
+    transition: all .3s;
+}
